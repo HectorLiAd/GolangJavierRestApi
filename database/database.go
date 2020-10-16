@@ -8,7 +8,7 @@ import (
 )
 
 func InitDB() *sql.DB {
-	connectionStr := "root:hector@tcp(localhost:3306)/pruebago"
+	connectionStr := "root:hector@tcp(localhost:3306)/northwind"
 	fmt.Println(connectionStr)
 	databaseConnection, err := sql.Open("mysql", connectionStr)
 
